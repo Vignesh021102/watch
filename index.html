@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+  />
+</head>
+<body>
+    <navbar >
+        <button onclick="toogletime()">time</button>
+        <button onclick="tooglestopwatch()" >stopwatch</button>
+    </navbar>
+    <div id="time">
+        <div id="digit">
+            <div>
+                <h1 id="hour" class="hour" >0</h1>
+        <h1 >:</h1>
+        <h1 id="min" class="min" >0</h1>
+        <h1>:</h1>
+        <h1 id="sec" class="sec" >0</h1> 
+            </div>
+       <div>
+          <h1 id="AM/PM"></h1> 
+       </div>
+        
+        </div>
+        <div id="button-box">
+            <div>
+                <h1 id="date"></h1>
+                <h1 class="fa fa-minus"></h1>
+                <h1 id="month"></h1>
+                <h1 class="fa fa-minus"></h1>
+                <h1 id="year"></h1> 
+                
+            </div>
+            <div>
+                <h1 id="day"></h1>
+            </div>
+            
+            
+        </div>
+    </div>
+    <div id="stopwatch" >
+    <div id="S-display" >
+        <h2 id="num3">0</h2>
+        <h2>:</h2>
+        <h2 id="num2">0</h2>
+        <h2>:</h2>
+        <h2 id="num1">0</h2>
+    </div>
+    <div id="button-box">
+        <button id="start" onclick="start()">start</button>
+    </div>
+    </div>
+    <script src="./script.js" ></script>
+</body>
+</html>
